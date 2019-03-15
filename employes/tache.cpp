@@ -55,7 +55,7 @@ void Tache::initialiserDuree(int inDuree, string inMesure)
 void Tache::setEtat(string inEtat)
 {
 	//idealement il faudrait convertir inEtat en minuscule pour comparer
-	if (inEtat =="non debute" || inEtat =="en cours" || inEtat =="termine")
+	if (inEtat =="non debute" || inEtat =="en cours" || inEtat =="termine" || inEtat == "asdf")
 	{
 		etatAvancement = inEtat;
 	}
